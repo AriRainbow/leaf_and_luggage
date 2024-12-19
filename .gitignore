@@ -1,0 +1,63 @@
+# Node.js dependencies (if using Node for development tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# MacOS system files
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files and build output
+tmp/
+temp/
+dist/
+build/
+.cache/
+
+# Compiled files (if using any preprocessor like Sass, TypeScript, etc.)
+*.css.map
+*.js.map
+*.tsbuildinfo
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Images and files generated during development
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.webm
+
+# Testing files
+.jest/
+jest.config.js
+coverage/
+
+# Exclude specific secret configuration files
+*.key
+*.crt
+secret/
