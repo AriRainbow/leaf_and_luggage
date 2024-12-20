@@ -47,12 +47,12 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #224224;
+  color: #5da095;
   padding: 8px 12px;
 }
 
 .menu a:hover {
-  background-color: #d7c6aa;
+  background-color: #e1c149;
   border-radius: 4px;
 }
 
@@ -63,14 +63,14 @@ body {
 
 .dropbtn {
   text-decoration: none;
-  color: #224224;
+  color: #5da095;
   padding: 8px 12px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #d7c6aa;
+  background-color: #f2dedd;
   min-width: 160px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -89,13 +89,13 @@ body {
 .dropdown-content a {
   text-decoration: none;
   display: block;
-  color: #224224;
+  color: #5da095;
   padding: 10px;
   border-bottom: 1px solid #f4f4e3;
 }
 
 .dropdown-content a:hover {
-  background-color: #f4e3ec;
+  background-color: #e1c149;
 }
 
 .dropdown:hover .dropdown-content {
