@@ -134,7 +134,7 @@ body {
 
 /* Editorial Section Adjustments */
 .editorial-section {
-  background-color: rgba(164, 139, 61, 0.5); /* 0.5 is 50% transparency */
+  background-color: #a48b3d
   border: 1px solid #5da095;
   border-radius: 8px;
   padding: 20px
