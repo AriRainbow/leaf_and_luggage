@@ -168,6 +168,7 @@ body {
 /* Content Styling */
 .why-eco-friendly {
   background-color: #e8d3c7;
+  border: 1px solid #5da095;
   padding: 10px 20px;
   text-align: center;
 }
