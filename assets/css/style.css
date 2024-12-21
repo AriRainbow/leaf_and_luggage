@@ -126,7 +126,7 @@ body {
   display: flex; /* Use flexbox for horizontal layout */
   justify-content: space-between;
   gap: 20px; /* Space between left & right sections */
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 /* Ensure left and right sections are properly styled without breaking other rules */
@@ -134,7 +134,7 @@ body {
 .right-section {
   flex: 1; /* ensures both sections take up equal width */
   box-sizing: border-box;  /* Include padding and borders in the width */
-  padding: 20px;  /* Add equal padding */
+  padding: 0;  /* Remove internal padding to avoid compounding */
   margin: 0; /* reset any margins */
   min-width: 0;  /* Prevent content overflow from distorting layout */
   min-height: 100%; /* ensures equal height */
