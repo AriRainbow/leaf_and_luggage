@@ -161,15 +161,17 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #5da095;
-  border-radius: 8px;
+  border: 1px solid #5da095;  /* single border */
+  border-radius: 8px;  /* rounded corners */
+  box-shadow: none;  /* no shadow */
+  margin: 0;  /* avoid margin conflicts */
+  box-sizing: border-box;  /* consistent sizing */
 }
 
 /* Content Styling */
 .why-eco-friendly {
   background-color: #e8d3c7;
-  border: 1px solid #5da095;
-  padding: 10px 20px;
+  padding: 20px;
   text-align: center;
 }
 
