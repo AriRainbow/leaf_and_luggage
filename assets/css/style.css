@@ -185,6 +185,7 @@ body {
 .eco-impact-container div {
   background:  #e9e2d5;
   padding: 20px;
+  border: 1px solid #5da095;
   border-radius: 8px;
   width: 48%;
   text-align: left;
