@@ -19,7 +19,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  color: #5da095;
+  color: #3b544a;
 }
 
 .navbar-icon {
@@ -47,12 +47,12 @@ body {
 
 .menu a {
   text-decoration: none;
-  color: #5da095;
+  color: #3b544a;
   padding: 8px 12px;
 }
 
 .menu a:hover {
-  background-color: #e1c149;
+  background-color: #5da095;
   border-radius: 4px;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .dropbtn {
   text-decoration: none;
-  color: #5da095;
+  color: #3b544a;
   padding: 8px 12px;
 }
 
@@ -89,13 +89,13 @@ body {
 .dropdown-content a {
   text-decoration: none;
   display: block;
-  color: #5da095;
+  color: #3b544a;
   padding: 10px;
   border-bottom: 1px solid #f4f4e3;
 }
 
 .dropdown-content a:hover {
-  background-color: #e1c149;
+  background-color: #5da095;
 }
 
 .dropdown:hover .dropdown-content {
