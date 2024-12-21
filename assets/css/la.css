@@ -104,3 +104,18 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* General reset for the banner */
+.welcome-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing below the banner */
+}
+
+/* Style the banner image */
+.welcome-banner img {
+  width: 100%; /* Makes it responsive */
+  max-height: 350px; /* Set a maximum height for consistency */
+  object-fit: cover; /* Ensures the image scales and doesn't distort */
+  border-bottom: 4px solid #556B2F; /* Optional green accent */
+}
