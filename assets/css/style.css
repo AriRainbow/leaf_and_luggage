@@ -160,7 +160,7 @@ body {
 /* Compare Section Adjustments */
 .right-section {
   background-color: #e8d3c7;
-  padding: 20px;
+  padding: 10px; /* rediced padding to balance with left */
   display: flex;
   flex-direction: column;
   border: 1px solid #5da095;  /* single border */
