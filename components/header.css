@@ -55,6 +55,7 @@ body {
   .menu a:hover {
     background-color: #5da095;
     border-radius: 4px;
+    border: 2px solid #e1c149;
   }
   
   /* Dropdown Menu Styles */
@@ -97,6 +98,7 @@ body {
   
   .dropdown-content a:hover {
     background-color: #5da095;
+    border: 2px solid #e1c149;
   }
   
   .dropdown:hover .dropdown-content {
