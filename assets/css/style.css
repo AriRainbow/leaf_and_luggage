@@ -42,7 +42,7 @@ body {
 }
 
 .menu li {
-  margin-left: 20px;
+  margin-left: 10px;  /* space between menu items */
 }
 
 .menu a {
