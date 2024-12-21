@@ -131,8 +131,11 @@ body {
 /* Ensure left and right sections are properly styled without breaking other rules */
 .left-section,
 .right-section {
-  flex: 1 1 auto; /* Allow both sections to share equal space */
-  box-sizing: border-box;
+  flex: 1; /* ensures both sections take up equal width */
+  box-sizing: border-box;  /* Include padding and borders in the width */
+  padding: 20px;  /* Add equal padding */
+  margin: 0; /* reset any margins */
+  min-width: 0;  /* Prevent content overflow from distorting layout */ 
 }
 
 /* Editorial Section Adjustments */
@@ -149,9 +152,8 @@ body {
 
 /* Editorial Image */
 .editorial-image-container img {
-  max-width: 900px; /* Restrict maximum width */
-  height: 300px; /* Fixed height */
-  width: auto; /* Keep the aspect ratio consistent */
+  max-width: 100%; /* Restricts width to container's width */
+  height: auto; /* maintain aspect ratio */
   border-radius: 8px; /* Optional rounded corners */
 }
 
