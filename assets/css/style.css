@@ -171,7 +171,7 @@ body {
 
 .why-eco-friendly h2 {
   font-size: 2rem;
-  color: #224224; /* Dark green */
+  color: #3b544a; /* Dark green */
   font-family: 'Cinzel Decorative', serif; /* Use the same font as the navbar text */
 }
 
@@ -193,14 +193,14 @@ body {
 .impact-statement p {
   font-family: 'Cinzel Decorative', serif;
   font-size: 1.5rem;
-  color: #224224; /* Dark green */
+  color: #3b544a; /* Dark green */
 }
 
 /* Editorial Section Heading Styling */
 .editorial-section h2,
 .why-eco-friendly h2 {
   font-family: 'Cinzel Decorative', serif;
-  color: #224224; /* Match the deep green theme */
+  color: #3b544a; /* Match the deep green theme */
   font-size: 2.4rem; /* Keep consistent with other headings */
   margin-bottom: 15px;
 }
@@ -229,5 +229,5 @@ body {
 }
 
 #back-to-top:hover {
-  background-color: #224224; /* Darker shade for hover */
+  background-color: #3b544a; /* Darker shade for hover */
 }
