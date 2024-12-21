@@ -154,11 +154,11 @@ body {
 
 /* Compare Section Adjustments */
 .right-section {
-  background-color: #d7c6aa;
+  background-color: #e8d3c7;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #556b2f;
+  border: 1px solid #5da095;
   border-radius: 8px;
 }
 
