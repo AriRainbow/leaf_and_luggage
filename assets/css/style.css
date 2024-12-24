@@ -248,21 +248,13 @@ body {
 /* Footer Base Styles */
 .site-footer {
   width: 100%;
-  min-height: 500px;
   background-image: url(/assets/images/TheBanner_Template.png);  /* Add path here */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  box-sizing: border-box;  /* padding and border don't overflow */
-  padding: 40px 0;
   overflow: hidden;  /* prevent overflow of background */
   position: relative;
-  font-family: Arial, sans-serif;
-  border-top: 3px solid #5da095;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  font-family: Arial, sans-serif;  flex-direction: column;
   max-width: 100%;
 }
 
