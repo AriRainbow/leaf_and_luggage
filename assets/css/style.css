@@ -247,6 +247,7 @@ body {
 /* Footer Start */
 /* Footer Base Styles */
 .site-footer {
+  width: 100%;
   background-image: url(/assets/images/TheBanner_Template.png);  /* Add path here */
   background-size: cover;
   background-repeat: no-repeat;
