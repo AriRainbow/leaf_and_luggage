@@ -287,12 +287,12 @@ body {
 
 .footer-links a {
   text-decoration: none;
-  color: #ad472f; /* Warm accent */
+  color: #e9e2d5; 
   font-size: 1rem;
 }
 
 .footer-links a:hover {
-  color: #c55f39; /* Hover color */
+  color: #5da095; /* Hover color */
 }
 
 /* Newsletter Signup */
