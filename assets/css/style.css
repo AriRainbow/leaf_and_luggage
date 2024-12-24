@@ -255,17 +255,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Decorative Divider */
-.divider {
-  width: 100%;
-  height: 50px;
-  background-image: url(/assets/images/divider.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
+
 
 /* Logo and Tagline */
 .logo-tagline {
