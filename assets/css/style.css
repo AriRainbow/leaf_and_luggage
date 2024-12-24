@@ -246,16 +246,23 @@ body {
 /* Footer Start */
 /* Footer Base Styles */
 .site-footer {
-  background-color: #e8d3c7; /* Soft neutral base */
-  color: #3b544a; /* Deep green text */
-  padding: 30px 20px;
+  background-image: url();  /* Add path here */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 0;
+  position: relative;
   font-family: Arial, sans-serif;
 }
 
 /* Decorative Divider */
 .divider {
-  height: 4px;
-  background-color: #e1c149; /* Golden highlight */
+  width: 100%;
+  height: 50px;
+  background-image: url('/path-to-your-banner-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 4px;
   margin-bottom: 20px;
 }
