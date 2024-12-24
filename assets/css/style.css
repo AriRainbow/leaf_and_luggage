@@ -341,11 +341,11 @@ body {
 .social-icon {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #ad472f; /* Warm accent */
+  color: #e9e2d5; 
 }
 
 .social-icon:hover {
-  color: #c55f39; /* Hover effect */
+  color: #5da095; /* Hover effect */
 }
 
 /* Copyright Section */
@@ -353,6 +353,6 @@ body {
   text-align: center;
   margin-top: 30px;
   font-size: 0.9rem;
-  color: #375045; /* Deep green secondary text */
+  color: #e8d3c7; 
 }
 /* Footer End */
