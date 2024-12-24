@@ -252,6 +252,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 40px;
   overflow: hidden;  /* prevent overflow of background */
   font-family: Arial, sans-serif;  flex-direction: column;
   max-width: 100%;
