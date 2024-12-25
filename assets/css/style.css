@@ -244,3 +244,13 @@ body {
   color: #b4dd1e !important;
 }
 
+.divider-banner {
+  width: 100%;
+  height: 250px; /* Adjust height to your preference */
+  background-image: url('/assets/images/TheBanner_Template.png'); /* Your banner image */
+  background-size: cover; /* Ensures the image covers the div without distortion */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Keeps the image centered */
+  border-top: 3px solid #5da095; /* Optional decorative border */
+  border-bottom: 3px solid #5da095; /* Optional decorative border */
+}
