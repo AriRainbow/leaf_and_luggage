@@ -257,21 +257,37 @@ body {
 
 /* Footer Base Styles */
 .site-footer {
-  background-color: #e8d3c7; /* Soft neutral base */
-  color: #3b544a; /* Deep green text */
+  width: 100%;
+  background-color: #e8d3c7; 
+  color: #3b544a; 
   padding: 30px 20px;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start; /* align content to the left */
+  align-items: center; /* center vertically */
 }
 
-/* Logo and Tagline */
-.logo-tagline {
-  text-align: center;
-  margin-bottom: 20px;
+.footer-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-left {
+  flex: 0 0 auto;  /* Prevent logo from stretching */
 }
 
 .footer-logo {
-  height: 60px;
-  width: auto;
+  height: 100px;  /* fit footer */
+  width: auto;  /* maintain aspect ratio */
+  max-height: 100%;  /* Prevent overflow */
+  border: none;  /* will probably add later */
+}
+
+/* Tagline */
+.logo-tagline {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .tagline {
