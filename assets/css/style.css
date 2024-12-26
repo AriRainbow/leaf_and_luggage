@@ -254,7 +254,7 @@ body {
   color: #e9e2d5; 
   padding: 30px 20px;
   font-family: Arial, sans-serif;
-  border: 3px solid #5da095;
+  border-top: 3px solid #5da095;
 }
 
 /* Logo and Tagline */
