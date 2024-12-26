@@ -150,12 +150,19 @@ body::before {
 .left-section,
 .right-section {
   flex: 1; /* ensures both sections take up equal width */
+  display: flex;  /* Add display: flex for the column layout */
+  flex-direction: column;  /* Stack the sections vertically */
   box-sizing: border-box;  /* Include padding and borders in the width */
   padding: 0;  /* Remove internal padding to avoid compounding */
   margin: 0; /* reset any margins */
   min-width: 0;  /* Prevent content overflow from distorting layout */
-  min-height: 100%; /* ensures equal height */
   gap: 20px;  /* space between sections */
+}
+
+.left-section section,
+.right-section section {
+  margin: 0;
+  padding: 20px;  /* add padding to each section */
 }
 
 /* Editorial Section Adjustments */
