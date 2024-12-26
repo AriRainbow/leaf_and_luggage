@@ -155,6 +155,7 @@ body::before {
   margin: 0; /* reset any margins */
   min-width: 0;  /* Prevent content overflow from distorting layout */
   min-height: 100%; /* ensures equal height */
+  gap: 20px;  /* space between sections */
 }
 
 /* Editorial Section Adjustments */
