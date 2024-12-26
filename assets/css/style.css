@@ -124,11 +124,13 @@ body::before {
 .welcome-banner {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px; /* Add spacing below the banner */
+  margin: 0;
+  padding: 0;
 }
 
 /* Style the banner image */
 .welcome-banner img {
+  display: block;  /* removes extra space caused by inline images */
   width: 100%; /* Makes it responsive */
   max-height: 350px; /* Set a maximum height for consistency */
   object-fit: cover; /* Ensures the image scales and doesn't distort */
