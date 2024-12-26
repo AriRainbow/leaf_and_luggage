@@ -1,5 +1,6 @@
 /* General Body Styling */
-body {
+html, body {
+  height: 100%;  /* ensures body spans the full viewport height */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;  /* image stays fixed and covers entire viewport */
   top: 0;
   left: 0;
   width: 100%;
