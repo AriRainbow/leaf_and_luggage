@@ -260,20 +260,26 @@ body {
   width: 100%;
   background-color: #e8d3c7; 
   color: #3b544a; 
-  padding: 30px 20px;
+  padding: 20px;
   font-family: Arial, sans-serif;
   display: flex;
-  align-items: center; /* center vertically */
+  flex-direction: column;  /* stack items vertically */
+  align-items: center; /* center horizontally */
+  justify-content: space-between;  /* push logo to left, content stays centered */
 }
 
+/* Footer content wrapper */
 .footer-content {
   display: flex;
-  align-items: center;
+  flex-direction: column;  /* stack items vertically */
+  align-items: center;  /* center items horizontally */
   width: 100%;
 }
 
 .footer-left {
-  flex: 0 0 auto;  /* Prevent logo from stretching */
+  display: flex;  /* ensure proper alignment for logo */
+  justify-content: flex-start;  /* align content to the left */
+
 }
 
 .footer-logo {
@@ -281,6 +287,14 @@ body {
   width: auto;  /* maintain aspect ratio */
   max-height: 100%;  /* Prevent overflow */
   border: none;  /* will probably add later */
+}
+
+/* Center section: Content */
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 /* Tagline */
