@@ -117,7 +117,7 @@ body {
   width: 100%; /* Makes it responsive */
   max-height: 350px; /* Set a maximum height for consistency */
   object-fit: cover; /* Ensures the image scales and doesn't distort */
-  border: 3px solid #5da095;
+  border-bottom: 3px solid #5da095;
 }
 
 /* Main Content Wrapper */
