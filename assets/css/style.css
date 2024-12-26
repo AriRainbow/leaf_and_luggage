@@ -263,7 +263,6 @@ body {
   padding: 30px 20px;
   font-family: Arial, sans-serif;
   display: flex;
-  justify-content: flex-start; /* align content to the left */
   align-items: center; /* center vertically */
 }
 
