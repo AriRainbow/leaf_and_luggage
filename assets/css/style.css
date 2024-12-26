@@ -176,6 +176,14 @@ body::before {
   border-radius: 8px; /* Optional rounded corners */
 }
 
+/* Left Second Section */
+.second-section {
+  background-color: #e8d3c7;
+  border: 1px solid #5da095;
+  border-radius: 8px;
+  padding: 20px
+}
+
 /* Compare Section Adjustments */
 .right-section {
   background-color: #e8d3c7;
