@@ -257,22 +257,14 @@ body {
 
 /* Footer Base Styles */
 .site-footer {
-  background-color: #e8d3c7; /* Soft neutral base */
-  color: #3b544a; /* Deep green text */
+  background-image: url('/assets/images/TheBanner_Template.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #c55f39; 
+  color: #e9e2d5; 
   padding: 30px 20px;
   font-family: Arial, sans-serif;
-}
-
-/* Decorative Divider */
-.divider {
-width: 100%;
-height: 50px;
-background-image: url(/assets/images/divider.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-border-radius: 4px;
-margin-bottom: 20px;
 }
 
 /* Logo and Tagline */
@@ -288,7 +280,7 @@ margin-bottom: 20px;
 
 .tagline {
   font-size: 1.2rem;
-  color: #5da095; /* Calming green */
+  color: #e9e2d5; 
   margin-top: 10px;
 }
 
@@ -303,12 +295,12 @@ margin-bottom: 20px;
 
 .footer-links a {
   text-decoration: none;
-  color: #ad472f; /* Warm accent */
+  color: #e9e2d5; 
   font-size: 1rem;
 }
 
 .footer-links a:hover {
-  color: #c55f39; /* Hover color */
+  color: #e1c149; /* Hover color */
 }
 
 /* Newsletter Signup */
@@ -356,11 +348,11 @@ margin-bottom: 20px;
 .social-icon {
   text-decoration: none;
   font-size: 1.2rem;
-  color: #ad472f; /* Warm accent */
+  color: #e9e2d5;
 }
 
 .social-icon:hover {
-  color: #c55f39; /* Hover effect */
+  color: #e1c149; /* Hover effect */
 }
 
 /* Copyright Section */
@@ -368,5 +360,5 @@ margin-bottom: 20px;
   text-align: center;
   margin-top: 30px;
   font-size: 0.9rem;
-  color: #375045; /* Deep green secondary text */
+  color: #e9e2d5; 
 }
