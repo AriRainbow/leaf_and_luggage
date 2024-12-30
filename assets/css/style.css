@@ -385,3 +385,33 @@ body::before {
   font-size: 0.9rem;
   color: #e9e2d5; 
 }
+
+/* LEED */
+/* link */
+.leed-link {
+  color: #5da095;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.leed-link:hover {
+  color: #3b544a;
+  text-decoration: underline;
+}
+
+/* button */
+.leed-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5da095;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.leed-button:hover {
+  background-color: #3b544a;
+  color: #e9e2d5;
+}
