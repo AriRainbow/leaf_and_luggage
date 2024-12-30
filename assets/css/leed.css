@@ -126,86 +126,86 @@ body {
 .hero-section {
     position: relative;
     width: 100%;
-    height: 400px; /* Adjust based on desired height */
+    height: auto; /* Adjust height for flexibility */
     background-color: #f4f4f4; /* Light background color (like homepage sections) */
     padding: 40px 20px;
     box-sizing: border-box;
-  }
-  
-  .hero-container {
+}
+
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     flex-wrap: wrap; /* To ensure the layout adapts for mobile */
-  }
-  
-  .hero-left {
+}
+
+.hero-left {
     width: 30%; /* Adjust as needed for the menu */
     background-color: #ffffff; /* White background for menu section */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-  }
-  
-  .hero-menu {
+}
+
+.hero-menu {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .hero-menu li {
+}
+
+.hero-menu li {
     margin-bottom: 15px;
-  }
-  
-  .hero-menu a {
+}
+
+.hero-menu a {
     text-decoration: none;
     color: #333; /* Dark text for contrast */
     font-size: 1.2rem;
     font-weight: bold;
     transition: color 0.3s ease;
-  }
-  
-  .hero-menu a:hover {
+}
+
+.hero-menu a:hover {
     color: #00aaff; /* Adjust hover color */
-  }
-  
-  .hero-right {
+}
+
+.hero-right {
     width: 65%; /* Adjust based on the text size */
     color: #333; /* Dark text for readability */
     padding: 20px;
-  }
-  
-  .hero-right h1 {
+}
+
+.hero-right h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-  }
-  
-  .hero-right p {
+}
+
+.hero-right p {
     font-size: 1.25rem;
     margin-bottom: 20px;
-  }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
     .hero-container {
-      flex-direction: column;
-      text-align: center;
+        flex-direction: column;
+        text-align: center;
     }
-  
+
     .hero-left, .hero-right {
-      width: 100%;
-      padding: 10px;
+        width: 100%;
+        padding: 10px;
     }
-  
+
     .hero-menu li {
-      margin-bottom: 10px;
+        margin-bottom: 10px;
     }
-  
+
     .hero-right h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .hero-right p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  }
+}
