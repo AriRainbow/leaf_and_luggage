@@ -301,7 +301,6 @@ html, body {
     object-fit: cover; /* Crop the image if needed */
     flex-shrink: 0; /* Prevent the image from shrinking */
     margin-left: auto;  /* push image to far right */
-    padding-left: 20px;
 }
 
 @media (max-width: 768px) {
