@@ -266,7 +266,8 @@ html, body {
     border-radius: 8px; /* Add rounded corners */
     margin: 20px auto; /* Add spacing above and below, center it horizontally */
     padding: 20px; /* Add inner spacing */
-    max-width: 800px; /* Set a maximum width to make it visually distinct */
+    width: 90%;  /* make it take 90% */
+    max-width: 1200px; /* prevent from getting too wide on larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
 
