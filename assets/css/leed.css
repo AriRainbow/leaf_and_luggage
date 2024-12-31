@@ -260,7 +260,6 @@ html, body {
 }
 
 .spacer-section {
-    height: 400px; /* Adjust the height of the box */
     background-color: #f2dedd; /* White background for a card-like look */
     border: 2px solid #5da095; /* Define a border color */
     border-radius: 8px; /* Add rounded corners */
@@ -270,6 +269,7 @@ html, body {
     max-width: 1200px; /* prevent from getting too wide on larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
     display: flex; /* Use Flexbox for layout */
+    flex-wrap: nowrap; /* Prevent wrapping unless screen size dictates */
     justify-content: space-between; /* Space out the elements */
     align-items: center; /* Vertically center the content */
     gap: 20px; /* Add space between text and image */
@@ -300,6 +300,17 @@ html, body {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for the image */
     object-fit: cover; /* Crop the image if needed */
     flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+@media (max-width: 768px) {
+    .spacer-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .image img {
+        max-height: 150px; /* Optional smaller image for mobile */
+    }
 }
 
 /* Footer Base Styles */
