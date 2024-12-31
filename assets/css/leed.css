@@ -126,24 +126,27 @@ body {
 .hero-section {
     width: 100%;
     background-color: #f4f4f4; /* Light background color, or you can set an image */
-    padding: 40px 20px; /* Adjust padding as needed */
+    padding: 40px 0; /* Add padding above and below the section */
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the container horizontally */
     align-items: flex-start; /* Align items to the top */
     position: relative;
     flex-wrap: wrap; /* Allow wrapping for responsiveness */
     margin-top: 60px; /* Ensure there's space if navbar is fixed */
 }
 
-.hero-section .hero-container {
+/* Container inside the hero section to limit width */
+.hero-container {
     width: 100%;
-    max-width: 1200px; /* Set a max-width for the container */
+    max-width: 1200px; /* Maximum width to prevent stretching across the page */
     margin: 0 auto; /* Center the container */
     padding: 0 20px; /* Add padding if you want space inside the container */
+    box-sizing: border-box;
 }
 
-.hero-section .hero-content {
+/* Flex container for the left and right sections */
+.hero-content {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -153,8 +156,9 @@ body {
     padding: 0;
 }
 
+/* Left Section (Menu or Other Content) */
 .hero-left {
-    width: 25%;
+    width: 25%; /* Adjust width based on preference */
     padding: 20px;
     box-sizing: border-box;
     background-color: #ffffff;
@@ -162,6 +166,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Hero Menu Styling */
 .hero-menu {
     list-style: none;
     padding: 0;
@@ -184,8 +189,9 @@ body {
     color: #00aaff;
 }
 
+/* Right Section (Main Content like Heading and Text) */
 .hero-right {
-    width: 70%;
+    width: 70%; /* Adjust width based on preference */
     padding: 20px;
     box-sizing: border-box;
     color: #333;
