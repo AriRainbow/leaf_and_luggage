@@ -260,12 +260,15 @@ html, body {
 }
 
 .spacer-section {
-    height: 100px; /* Adjust height as needed */
-    background-color: #f9f9f9; /* Light gray background for visibility */
-    margin: 0; /* Optional: Adjust margins to fit your layout */
-    border: 1px dashed #ddd; /* Optional: Dashed border for visibility during testing */
+    height: 200px; /* Adjust the height of the box */
+    background-color: #ffffff; /* White background for a card-like look */
+    border: 2px solid #5da095; /* Define a border color */
+    border-radius: 8px; /* Add rounded corners */
+    margin: 20px auto; /* Add spacing above and below, center it horizontally */
+    padding: 20px; /* Add inner spacing */
+    max-width: 800px; /* Set a maximum width to make it visually distinct */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
-
 
 /* Footer Base Styles */
 .site-footer {
