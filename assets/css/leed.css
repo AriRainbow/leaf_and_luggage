@@ -120,7 +120,7 @@ body {
     align-items: flex-start; /* Align items to the top */
     position: relative;
     flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    margin-top: 30px; 
+    margin-top: 0; 
 }
 
 /* Container inside the hero section to limit width */
