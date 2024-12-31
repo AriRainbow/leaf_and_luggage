@@ -247,3 +247,111 @@ html, body {
   }
 /* end */
 
+/* Footer Base Styles */
+.site-footer {
+    background-image: url('/assets/images/TheBanner_Template.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #c55f39; 
+    color: #e9e2d5; 
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    border-top: 3px solid #5da095;
+  }
+  
+  /* Logo and Tagline */
+  .logo-tagline {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo {
+    height: 60px;
+    width: auto;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #e9e2d5; 
+    margin-top: 10px;
+  }
+  
+  /* Navigation Links */
+  .footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #e9e2d5; 
+    font-size: 1rem;
+  }
+  
+  .footer-links a:hover {
+    color: #e1c149; /* Hover color */
+  }
+  
+  /* Newsletter Signup */
+  .newsletter {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .newsletter p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: 1px solid #5da095;
+    border-radius: 5px;
+    width: 60%;
+    max-width: 300px;
+    background-color: #e9e2d5; /* Light neutral */
+    color: #3b544a; /* Text color */
+  }
+  
+  .newsletter button {
+    padding: 10px 15px;
+    background-color: #5da095; /* Button green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #375045; /* Darker green hover */
+  }
+  
+  /* Social Media Icons */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #e9e2d5;
+  }
+  
+  .social-icon:hover {
+    color: #e1c149; /* Hover effect */
+  }
+  
+  /* Copyright Section */
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #e9e2d5; 
+  }
