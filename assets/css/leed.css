@@ -293,13 +293,14 @@ html, body {
 
 /* Image styling */
 .spacer-section .image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 40%; /* limit width */
     height: auto; /* Maintain aspect ratio */
     max-height: 200px; /* Optional: Restrict image height */
     border-radius: 8px; /* Match the section's style */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for the image */
     object-fit: cover; /* Crop the image if needed */
     flex-shrink: 0; /* Prevent the image from shrinking */
+    margin-left: auto;  /* push image to far right */
 }
 
 @media (max-width: 768px) {
@@ -308,7 +309,8 @@ html, body {
         align-items: flex-start;
     }
 
-    .image img {
+    .spacer-section .image img {
+        max-width: 100%; 
         max-height: 150px; /* Optional smaller image for mobile */
     }
 }
