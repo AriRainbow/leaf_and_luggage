@@ -125,7 +125,10 @@ body {
  /* Hero Section Styling (Full Width Container) */
 .hero-section {
     width: 100%;
-    background-color: #f4f4f4; /* Light background color, or you can set an image */
+    background-image: url('../assets/images/TheBanner_Template.png');
+    background-size: cover; /* Make sure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
     padding: 40px 0; /* Add padding above and below the section */
     box-sizing: border-box;
     display: flex;
