@@ -247,6 +247,19 @@ html, body {
   }
 /* end */
 
+/* Main content wrapper to push the footer down */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Ensures the content fills the entire viewport */
+}
+
+/* Content section before the footer */
+.content {
+    flex: 1; /* Pushes the footer to the bottom when there is not enough content */
+}
+
+
 /* Footer Base Styles */
 .site-footer {
     background-image: url('/assets/images/TheBanner_Template.png');
@@ -258,7 +271,6 @@ html, body {
     padding: 30px 20px;
     font-family: Arial, sans-serif;
     border-top: 3px solid #5da095;
-    margin-bottom: 0;
   }
   
   /* Logo and Tagline */
