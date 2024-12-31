@@ -122,38 +122,33 @@ body {
   }
 
 
- /* Hero Section Styling (Full Width) */
+ /* Hero Section Styling */
 .hero-section {
     width: 100%;
-    height: 400px; /* Height can be adjusted based on your preference */
-    background-color: #f4f4f4; /* Light background color, or you can set an image */
-    padding: 40px 20px; /* Adjust padding as needed */
-    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.hero-section .hero-content {
-    width: 100%;
-    display: flex;
+    align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .hero-left {
-    width: 30%; /* Adjust based on your preference */
-    background-color: #ffffff; /* White background for menu section */
+    width: 25%;
     padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hero-menu {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .hero-menu li {
@@ -169,13 +164,14 @@ body {
 }
 
 .hero-menu a:hover {
-    color: #00aaff; /* Adjust hover color */
+    color: #00aaff;
 }
 
 .hero-right {
-    width: 65%; /* Adjust based on the text size */
-    color: #333;
+    width: 70%;
     padding: 20px;
+    box-sizing: border-box;
+    color: #333;
 }
 
 .hero-right h1 {
@@ -188,15 +184,11 @@ body {
     margin-bottom: 20px;
 }
 
-/* Optional: Add a subtle shadow or border-bottom */
-.hero-section .hero-content {
-    border-bottom: 4px solid #5da095; /* Optional divider for sections */
-}
-
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .hero-section {
-        height: auto;
+        flex-direction: column;
+        margin-top: 20px;
         padding: 20px;
     }
 
