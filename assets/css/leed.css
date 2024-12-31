@@ -258,6 +258,7 @@ html, body {
     padding: 30px 20px;
     font-family: Arial, sans-serif;
     border-top: 3px solid #5da095;
+    margin-bottom: 0;
   }
   
   /* Logo and Tagline */
