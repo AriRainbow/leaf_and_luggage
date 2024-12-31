@@ -145,7 +145,7 @@ body {
 
 /* Left Section (Menu or Other Content) */
 .hero-left {
-    width: 25%; /* Adjust width based on preference */
+    width: 20%; /* Adjust width based on preference */
     padding: 20px;
     box-sizing: border-box;
     background-color: #f2dedd;
