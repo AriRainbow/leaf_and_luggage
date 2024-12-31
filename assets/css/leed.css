@@ -261,7 +261,7 @@ html, body {
 
 .spacer-section {
     height: 200px; /* Adjust the height of the box */
-    background-color: #ffffff; /* White background for a card-like look */
+    background-color: #f2dedd; /* White background for a card-like look */
     border: 2px solid #5da095; /* Define a border color */
     border-radius: 8px; /* Add rounded corners */
     margin: 20px auto; /* Add spacing above and below, center it horizontally */
