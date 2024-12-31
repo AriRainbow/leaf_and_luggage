@@ -269,6 +269,37 @@ html, body {
     width: 90%;  /* make it take 90% */
     max-width: 1200px; /* prevent from getting too wide on larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Vertically center the content */
+    gap: 20px; /* Add space between text and image */
+}
+
+/* Content styles inside the section */
+.spacer-section .text {
+    flex: 1; /* Take up available space */
+    font-family: Arial, sans-serif;
+    color: #3b544a;
+}
+
+.spacer-section .text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.spacer-section .text p {
+    font-size: 1rem;
+}
+
+/* Image styling */
+.spacer-section .image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Optional: Restrict image height */
+    border-radius: 8px; /* Match the section's style */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for the image */
+    object-fit: cover; /* Crop the image if needed */
+    flex-shrink: 0; /* Prevent the image from shrinking */
 }
 
 /* Footer Base Styles */
