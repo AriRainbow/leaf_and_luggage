@@ -125,7 +125,7 @@ body {
  /* Hero Section Styling (Full Width Container) */
 .hero-section {
     width: 100%;
-    background-image: url('../assets/images/TheBanner_Template.png');
+    background-image: url('../images/TheBanner_Template.png');
     background-size: cover; /* Make sure the image covers the entire section */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent repeating the image */
