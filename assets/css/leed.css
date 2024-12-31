@@ -259,6 +259,13 @@ html, body {
     flex: 1; /* Pushes the footer to the bottom when there is not enough content */
 }
 
+.spacer-section {
+    height: 100px; /* Adjust height as needed */
+    background-color: #f9f9f9; /* Light gray background for visibility */
+    margin: 0; /* Optional: Adjust margins to fit your layout */
+    border: 1px dashed #ddd; /* Optional: Dashed border for visibility during testing */
+}
+
 
 /* Footer Base Styles */
 .site-footer {
