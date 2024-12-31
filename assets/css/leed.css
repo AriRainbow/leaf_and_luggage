@@ -251,7 +251,7 @@ html, body {
 .content-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100%; /* Ensures the content fills the entire viewport */
+    min-height: 100vh; /* Ensures the content fills the entire viewport */
 }
 
 /* Content section before the footer */
