@@ -133,7 +133,7 @@ body {
     align-items: flex-start; /* Align items to the top */
     position: relative;
     flex-wrap: wrap; /* Allow wrapping for responsiveness */
-    margin-top: 60px; /* Ensure there's space if navbar is fixed */
+    margin-top: 30px; 
 }
 
 /* Container inside the hero section to limit width */
