@@ -148,7 +148,7 @@ body {
     width: 25%; /* Adjust width based on preference */
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: #f2dedd;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -166,14 +166,14 @@ body {
 
 .hero-menu a {
     text-decoration: none;
-    color: #333;
+    color: #3b544a;
     font-size: 1.2rem;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .hero-menu a:hover {
-    color: #00aaff;
+    color: #5da095;
 }
 
 /* Right Section (Main Content like Heading and Text) */
@@ -181,7 +181,7 @@ body {
     width: 70%; /* Adjust width based on preference */
     padding: 20px;
     box-sizing: border-box;
-    color: #333;
+    color: #e9e2d5;
 }
 
 .hero-right h1 {
