@@ -122,18 +122,35 @@ body {
   }
 
 
- /* Hero Section Styling */
+ /* Hero Section Styling (Full Width Container) */
 .hero-section {
     width: 100%;
-    margin-top: 20px;
-    padding: 40px 20px;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light background color, or you can set an image */
+    padding: 40px 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: flex-start; /* Align items to the top */
     position: relative;
-    box-sizing: border-box;
+    flex-wrap: wrap; /* Allow wrapping for responsiveness */
+    margin-top: 60px; /* Ensure there's space if navbar is fixed */
+}
+
+.hero-section .hero-container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding if you want space inside the container */
+}
+
+.hero-section .hero-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-left {
