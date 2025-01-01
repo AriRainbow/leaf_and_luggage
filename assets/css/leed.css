@@ -281,16 +281,16 @@ html, body {
     font-family: Arial, sans-serif;
     color: #3b544a;
     max-width: 50%;  /* limit text width */
-    ;padding-left: 20px;
+    ;padding-left: 30px;
 }
 
 .spacer-section .text h2 {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     margin-bottom: 10px;
 }
 
 .spacer-section .text p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
