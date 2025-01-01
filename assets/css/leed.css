@@ -347,6 +347,14 @@ html, body {
 }
 
 /* LEFT */
+/* Left Column (contains both left sections) */
+.left-column {
+  display: flex;
+  flex-direction: column; /* Stack the left sections vertically */
+  gap: 20px; /* Add space between the left sections */
+  width: 65%; /* Adjust the width for the left column */
+}
+
 /* Styling for left-section content */
 .side-by-side .left-section h2 {
   font-family: 'Arial', sans-serif;
