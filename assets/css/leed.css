@@ -381,17 +381,17 @@ html, body {
 /* RIGHT */
 .side-by-side .right-section h2 {
   font-family: 'Arial', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #3b544a;
   margin-bottom: 15px;
   text-align: center; /* Center the heading */
 }
 
 .side-by-side .right-section p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #3b544a;
   margin-bottom: 15px;
-  line-height: 1.6; /* Improved readability */
+  line-height: 1.2; /* Improved readability */
 }
 
 .side-by-side .right-section ul {
@@ -400,7 +400,7 @@ html, body {
 }
 
 .side-by-side .right-section ul li {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 15px;
   list-style-type: disc;
 }
