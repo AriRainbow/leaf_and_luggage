@@ -352,7 +352,7 @@ html, body {
   display: flex;
   flex-direction: column; /* Stack the left sections vertically */
   gap: 20px; /* Add space between the left sections */
-  width: 65%; /* Adjust the width for the left column */
+  width: 48%; /* Adjust the width for the left column */
 }
 
 /* Styling for left-section content */
