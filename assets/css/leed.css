@@ -341,6 +341,7 @@ html, body {
     border-radius: 8px; /* Rounded corners */
     min-height: 200px; /* Set a minimum height for visual balance */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    padding: 20px; /* Add padding inside the sections */
 }
 
 /* Styling for left-section content */
