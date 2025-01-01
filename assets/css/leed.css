@@ -259,6 +259,7 @@ html, body {
     flex: 1; /* Pushes the footer to the bottom when there is not enough content */
 }
 
+/* SPACER */
 .spacer-section {
     background-color: #f2dedd; /* White background for a card-like look */
     border: 2px solid #5da095; /* Define a border color */
@@ -320,6 +321,7 @@ html, body {
     }
 }
 
+/* S-B-S */
 /* Side-by-side section container */
 .side-by-side {
     display: flex; /* Use Flexbox for layout */
@@ -344,6 +346,7 @@ html, body {
     padding: 20px; /* Add padding inside the sections */
 }
 
+/* LEFT */
 /* Styling for left-section content */
 .side-by-side .left-section h2 {
   font-family: 'Arial', sans-serif;
@@ -375,6 +378,38 @@ html, body {
   color: #5da095; /* Highlighted text for key points */
 }
 
+/* RIGHT */
+.side-by-side .right-section h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  color: #3b544a;
+  margin-bottom: 15px;
+  text-align: center; /* Center the heading */
+}
+
+.side-by-side .right-section p {
+  font-size: 1rem;
+  color: #3b544a;
+  margin-bottom: 15px;
+  line-height: 1.6; /* Improved readability */
+}
+
+.side-by-side .right-section ul {
+  padding-left: 20px; /* Indent list */
+  color: #3b544a;
+}
+
+.side-by-side .right-section ul li {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  list-style-type: disc;
+}
+
+.side-by-side .right-section ul li strong {
+  color: #5da095; /* Highlighted text for key points */
+}
+
+/* S-B-S MEDIA */
 /* Optional: Adjust for smaller screens */
 @media (max-width: 768px) {
     .side-by-side {
@@ -387,6 +422,7 @@ html, body {
     }
 }
 
+/* FOOTER */
 /* Footer Base Styles */
 .site-footer {
     background-image: url('/assets/images/TheBanner_Template.png');
@@ -497,7 +533,7 @@ html, body {
     color: #e9e2d5; 
   }
 
-  /* Back to Top Button */
+  /* BACK 2 TOP */
 #back-to-top {
     position: fixed;
     bottom: 20px;
