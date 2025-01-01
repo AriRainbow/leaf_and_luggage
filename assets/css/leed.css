@@ -320,6 +320,41 @@ html, body {
     }
 }
 
+/* Side-by-side section container */
+.side-by-side {
+    display: flex; /* Use Flexbox for layout */
+    gap: 20px; /* Space between the sections */
+    justify-content: space-between; /* Space out the sections */
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px auto; /* Center the container and add vertical spacing */
+    padding: 20px;
+    width: 90%; /* Make it take up 90% of the width */
+    max-width: 1200px; /* Limit the width */
+}
+
+/* Individual sections */
+.side-by-side .left-section,
+.side-by-side .right-section {
+    flex: 1; /* Allow sections to grow and fill space equally */
+    background-color: #f2dedd; /* Light background color */
+    border: 2px solid #5da095; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    min-height: 200px; /* Set a minimum height for visual balance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Optional: Adjust for smaller screens */
+@media (max-width: 768px) {
+    .side-by-side {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+
+    .side-by-side .left-section,
+    .side-by-side .right-section {
+        margin-bottom: 20px; /* Add spacing between stacked sections */
+    }
+}
+
 /* Footer Base Styles */
 .site-footer {
     background-image: url('/assets/images/TheBanner_Template.png');
