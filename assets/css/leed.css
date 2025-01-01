@@ -347,14 +347,14 @@ html, body {
 /* Styling for left-section content */
 .side-by-side .left-section h2 {
   font-family: 'Arial', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #3b544a;
   margin-bottom: 15px;
   text-align: center;  /* center heading */
 }
 
 .side-by-side .left-section p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #3b544a;
   margin-bottom: 15px;
   line-height: 1.6; /* Improved readability */
