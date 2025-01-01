@@ -350,6 +350,7 @@ html, body {
   font-size: 1.8rem;
   color: #3b544a;
   margin-bottom: 15px;
+  text-align: center;  /* center heading */
 }
 
 .side-by-side .left-section p {
