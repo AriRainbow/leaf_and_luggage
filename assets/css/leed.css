@@ -280,7 +280,7 @@ html, body {
     flex: 1; /* Take up available space */
     font-family: Arial, sans-serif;
     color: #3b544a;
-    max-width: 50%;  /* limit text width */
+    max-width: 60%;  /* limit text width */
     ;padding-left: 40px;
 }
 
