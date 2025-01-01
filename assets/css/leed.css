@@ -357,7 +357,7 @@ html, body {
   font-size: 1.5rem;
   color: #3b544a;
   margin-bottom: 15px;
-  line-height: 1.6; /* Improved readability */
+  line-height: 1.2; /* Improved readability */
 }
 
 .side-by-side .left-section ul {
