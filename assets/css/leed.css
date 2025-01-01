@@ -343,6 +343,36 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
 }
 
+/* Styling for left-section content */
+.side-by-side .left-section h2 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  color: #3b544a;
+  margin-bottom: 15px;
+}
+
+.side-by-side .left-section p {
+  font-size: 1rem;
+  color: #3b544a;
+  margin-bottom: 15px;
+  line-height: 1.6; /* Improved readability */
+}
+
+.side-by-side .left-section ul {
+  padding-left: 20px; /* Indent list */
+  color: #3b544a;
+}
+
+.side-by-side .left-section ul li {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  list-style-type: disc;
+}
+
+.side-by-side .left-section ul li strong {
+  color: #5da095; /* Highlighted text for key points */
+}
+
 /* Optional: Adjust for smaller screens */
 @media (max-width: 768px) {
     .side-by-side {
