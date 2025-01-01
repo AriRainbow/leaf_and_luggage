@@ -269,7 +269,7 @@ html, body {
     max-width: 1200px; /* prevent from getting too wide on larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
     display: flex; /* Use Flexbox for layout */
-    flex-wrap: nowrap; /* Prevent wrapping unless screen size dictates */
+    flex-wrap: wrap; /* Prevent wrapping unless screen size dictates */
     justify-content: space-between; /* Space out the elements */
     align-items: center; /* Vertically center the content */
     gap: 20px; /* Add space between text and image */
