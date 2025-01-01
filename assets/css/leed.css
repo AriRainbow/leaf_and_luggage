@@ -378,6 +378,18 @@ html, body {
   color: #5da095; /* Highlighted text for key points */
 }
 
+/* SECOND LEFT */
+/* Second Left Section Styling */
+.side-by-side .second-left-section {
+  flex: 1;
+  background-color: #e3f1ed; /* Optional: Slightly different background color */
+  border: 2px solid #5da095;
+  border-radius: 8px;
+  min-height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Optional: spacing between sections */
+}
+
 /* RIGHT */
 .side-by-side .right-section h2 {
   font-family: 'Arial', sans-serif;
