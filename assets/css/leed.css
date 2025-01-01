@@ -269,7 +269,7 @@ html, body {
     max-width: 1200px; /* prevent from getting too wide on larger screens */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
     display: flex; /* Use Flexbox for layout */
-    flex-wrap: wrap; /* Prevent wrapping unless screen size dictates */
+    flex-wrap: wrap; /* allow wrapping for smaller screens */
     justify-content: space-between; /* Space out the elements */
     align-items: center; /* Vertically center the content */
     gap: 20px; /* Add space between text and image */
@@ -280,6 +280,7 @@ html, body {
     flex: 1; /* Take up available space */
     font-family: Arial, sans-serif;
     color: #3b544a;
+    max-width: 60%;  /* limit text width */
 }
 
 .spacer-section .text h2 {
@@ -289,17 +290,22 @@ html, body {
 
 .spacer-section .text p {
     font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.spacer-section .image {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    max-width: 35%; /* Limit image width */
+    text-align: right; /* Align the image container to the right */
 }
 
 /* Image styling */
 .spacer-section .image img {
-    max-width: 40%; /* limit width */
+    max-width: 100%;  /* doesn't exceed container */
     height: auto; /* Maintain aspect ratio */
-    max-height: 200px; /* Optional: Restrict image height */
     border-radius: 8px; /* Match the section's style */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for the image */
     object-fit: cover; /* Crop the image if needed */
-    flex-shrink: 0; /* Prevent the image from shrinking */
     margin-left: auto;  /* push image to far right */
 }
 
