@@ -332,7 +332,6 @@ html, body {
     padding: 20px;
     width: 90%; /* Make it take up 90% of the width */
     max-width: 1200px; /* Limit the width */
-    flex-direction: column;  /* stack left sections vertically */
 }
 
 /* Individual sections */
