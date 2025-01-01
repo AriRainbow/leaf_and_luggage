@@ -280,7 +280,7 @@ html, body {
     flex: 1; /* Take up available space */
     font-family: Arial, sans-serif;
     color: #3b544a;
-    max-width: 60%;  /* limit text width */
+    max-width: 50%;  /* limit text width */
 }
 
 .spacer-section .text h2 {
@@ -295,8 +295,8 @@ html, body {
 
 .spacer-section .image {
     flex-shrink: 0; /* Prevent the image from shrinking */
-    max-width: 35%; /* Limit image width */
-    text-align: right; /* Align the image container to the right */
+    max-width: 40%; /* Limit image width */
+    text-align: center; /* center align with the image */
 }
 
 /* Image styling */
