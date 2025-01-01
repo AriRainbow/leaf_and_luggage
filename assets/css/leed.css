@@ -304,7 +304,6 @@ html, body {
     max-width: 100%;  /* doesn't exceed container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Match the section's style */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for the image */
     object-fit: cover; /* Crop the image if needed */
 }
 
