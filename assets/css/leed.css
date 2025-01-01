@@ -388,6 +388,7 @@ html, body {
   min-height: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 20px; /* Optional: spacing between sections */
+  width: 50%;
 }
 
 /* RIGHT */
