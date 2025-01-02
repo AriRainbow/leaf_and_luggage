@@ -423,12 +423,14 @@ html, body {
   font-weight: bold; /* Optional: Make the heading bold */
   margin-bottom: 10px; /* Add some spacing below the heading */
   text-align: center; 
+  color: #3b544a;
 }
 
 .third-left-section p {
-  font-size: 1.2rem; /* Adjust the size as needed */
-  line-height: 1.6; /* Improve readability with line height */
+  font-size: 1.5rem; /* Adjust the size as needed */
+  line-height: 1.2; /* Improve readability with line height */
   margin-bottom: 15px; /* Add spacing below paragraphs */
+  color: #3b544a;
 }
 
 .third-left-section .case-study {
