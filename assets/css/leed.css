@@ -418,6 +418,18 @@ html, body {
   width: 92%;
 }
 
+.third-left-section h2 {
+  font-size: 1.8rem; /* Adjust the size as needed */
+  font-weight: bold; /* Optional: Make the heading bold */
+  margin-bottom: 10px; /* Add some spacing below the heading */
+}
+
+.third-left-section p {
+  font-size: 1.2rem; /* Adjust the size as needed */
+  line-height: 1.6; /* Improve readability with line height */
+  margin-bottom: 15px; /* Add spacing below paragraphs */
+}
+
 .third-left-section .case-study {
   display: flex;
   align-items: flex-start;
