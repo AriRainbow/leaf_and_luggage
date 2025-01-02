@@ -415,7 +415,7 @@ html, body {
   margin-top: 20px; /* Space between sections */
   padding: 15px;
   display: block;  /* block container */
-  width: 89%;
+  width: 100%;
 }
 
 .third-left-section .case-study {
