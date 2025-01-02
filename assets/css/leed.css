@@ -410,12 +410,34 @@ html, body {
 
 /* THIRD LEFT SECTION */
 .third-left-section {
-  background-color: #f2dedd; /* Optional: Add a background color for visibility */
-  border: 2px solid #5da095; /* Optional: Add a border for structure */
-  margin-top: 20px; /* Space between sections */
-  padding: 20px;
-  display: block;  /* block container */
-  width: 93%;
+  background-color: #f2dedd; 
+  border: 2px solid #5da095; 
+  margin: 20px 0; /* Space between sections */
+  position: relative;  /* Set positioning context for absolutely positioned children */
+  display: inline-block;  /* shrink-wrap section to its contents */
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;  /* Include padding and borders in size calculations */
+}
+
+.third-left-section img {
+  width: 100%; /* Ensure the image scales responsively */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent inline gaps under the image */
+}
+
+.third-left-section .image-text {
+  position: absolute;
+  bottom: 10px; /* Position the text 10px from the bottom of the image */
+  right: 10px; /* Position the text 10px from the right of the image */
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for readability */
+  color: white; /* Ensure high contrast text */
+  padding: 10px; /* Add padding inside the text box */
+  border-radius: 5px; /* Optional: Round corners of the text box */
+  max-width: 90%; /* Prevent the text box from exceeding the image's width */
+  font-size: 0.9rem; /* Adjust font size for readability */
+  overflow-wrap: break-word; /* Prevent long text from overflowing */
+  box-sizing: border-box; /* Ensure padding is included in the width/height */
 }
 
 
