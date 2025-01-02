@@ -418,23 +418,6 @@ html, body {
   width: 93%;
 }
 
-.third-left-section img {
-  width: 100%; /* Ensure the image scales responsively */
-  display: block; /* Prevent inline gaps under the image */
-}
-
-.third-left-section .image-text {
-  position: absolute;
-  bottom: 10px; /* Position the text 10px from the bottom of the image */
-  right: 10px; /* Position the text 10px from the right of the image */
-  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for readability */
-  color: white; /* Use white text for contrast */
-  padding: 10px; /* Add padding for a cleaner look */
-  border-radius: 5px; /* Optional: Add rounded corners */
-  font-size: 0.9rem; /* Adjust font size as needed */
-  max-width: 90%; /* Ensure the text fits within the image bounds */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for emphasis */
-}
 
 .third-left-section h2 {
   font-size: 2rem; /* Adjust the size as needed */
