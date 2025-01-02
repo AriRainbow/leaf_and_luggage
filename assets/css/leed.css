@@ -389,7 +389,7 @@ html, body {
 /* SECOND LEFT */
 /* Second Left Section Styling */
 .side-by-side .second-left-section {
-  background-color: #e3f1ed; /* Optional: Slightly different background color */
+  background-color: #f2dedd;
   border: 2px solid #5da095;
   border-radius: 8px;
   min-height: 200px;
@@ -401,10 +401,11 @@ html, body {
 
 .second-left-section img {
   width: 100%; /* Adjust to fit the container */
-  max-width: 500px; /* Optional: Set a max-width */
+  max-width: 800px; /* Optional: Set a max-width */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; /* Center the image horizontally */
+  border: 2px solid #5da095;
 }
 
 /* RIGHT */
