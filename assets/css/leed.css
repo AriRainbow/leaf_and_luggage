@@ -411,15 +411,17 @@ html, body {
 /* THIRD LEFT SECTION */
 .third-left-section {
   background-color: #f2dedd; /* Optional: Add a background color for visibility */
-  height: 200px; /* Adjust the height as needed */
   border: 2px solid #5da095; /* Optional: Add a border for structure */
   margin-top: 20px; /* Space between sections */
   padding: 15px;
+  display: block;  /* block container */
+  width: 89%;
 }
 
 .third-left-section .case-study {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap; /* Allow content to wrap if needed */
   margin-bottom: 20px;
 }
 
