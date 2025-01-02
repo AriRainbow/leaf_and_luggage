@@ -264,7 +264,7 @@ html, body {
     background-color: #f2dedd; /* White background for a card-like look */
     border: 2px solid #5da095; /* Define a border color */
     border-radius: 8px; /* Add rounded corners */
-    margin: 20px 50px; /* Add spacing above and below, 50px sides */
+    margin: 20px 50px 20px 50px; /* Add spacing above and below, 50px sides */
     padding: 20px; /* Add inner spacing */
     width: 95%;  /* make it take 95% */
     max-width: 1200px; /* prevent from getting too wide on larger screens */
