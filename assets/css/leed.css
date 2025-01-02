@@ -408,6 +408,14 @@ html, body {
   border: 2px solid #5da095;
 }
 
+/* THIRD LEFT SECTION */
+.third-left-section {
+  background-color: #f2dedd; /* Optional: Add a background color for visibility */
+  height: 200px; /* Adjust the height as needed */
+  border: 2px solid #5da095; /* Optional: Add a border for structure */
+  margin-top: 20px; /* Space between sections */
+}
+
 /* RIGHT */
 .side-by-side .right-section h2 {
   font-family: 'Arial', sans-serif;
