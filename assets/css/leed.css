@@ -422,6 +422,7 @@ html, body {
   font-size: 2rem; /* Adjust the size as needed */
   font-weight: bold; /* Optional: Make the heading bold */
   margin-bottom: 10px; /* Add some spacing below the heading */
+  text-align: center; 
 }
 
 .third-left-section p {
