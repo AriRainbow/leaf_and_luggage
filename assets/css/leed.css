@@ -399,6 +399,14 @@ html, body {
   flex: 1; /* Allow sections to grow and fill space equally */
 }
 
+.second-left-section img {
+  width: 100%; /* Adjust to fit the container */
+  max-width: 500px; /* Optional: Set a max-width */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
 /* RIGHT */
 .side-by-side .right-section h2 {
   font-family: 'Arial', sans-serif;
