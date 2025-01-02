@@ -414,6 +414,30 @@ html, body {
   height: 200px; /* Adjust the height as needed */
   border: 2px solid #5da095; /* Optional: Add a border for structure */
   margin-top: 20px; /* Space between sections */
+  padding: 15px;
+}
+
+.third-left-section .case-study {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.third-left-section .case-study img {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  margin-right: 15px;
+}
+
+.third-left-section .case-study h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.third-left-section .case-study p {
+  margin: 0;
+  font-size: 0.9em;
 }
 
 /* RIGHT */
