@@ -395,7 +395,7 @@ html, body {
   min-height: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  width: 100%;
+  width: 50%;
   flex: 1; /* Allow sections to grow and fill space equally */
 }
 
