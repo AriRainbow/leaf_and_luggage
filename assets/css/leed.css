@@ -411,7 +411,7 @@ list-style-type: disc;
 }
 
 .side-by-side .right-section ul li strong {
-color: #5da095; /* Highlighted text for key points */
+color: #5da095 !important; /* Highlighted text for key points */
 }
 
 /* FOOTER */
