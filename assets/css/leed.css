@@ -287,14 +287,15 @@ body::before {
 /* S-B-S */
 /* Side-by-side section container */
 .side-by-side {
-  display: flex; /* Use Flexbox for layout */
-  gap: 20px; /* Space between the sections */
-  justify-content: space-between; /* Space out the sections */
+  display: flex; /* Flex layout for side-by-side alignment */
+  gap: 20px; /* Space between sections */
+  justify-content: space-between; /* Push sections to edges */
   align-items: flex-start; /* Align items to the top */
-  margin: 20px auto; /* Center the container and add vertical spacing */
+  margin: 20px auto; /* Center and add spacing */
   padding: 20px;
-  width: 90%; /* Make it take up 90% of the width */
-  max-width: 1200px; /* Limit the width */
+  width: 90%; /* Occupy 90% of the page width */
+  max-width: 1200px; /* Prevent it from stretching too wide */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 /* Individual sections */
@@ -372,6 +373,17 @@ border: 2px solid #5da095;
 }
 
 /* RIGHT */
+
+.side-by-side .right-section {
+  flex: 1; /* Take up remaining space */
+  background-color: #f2dedd;
+  border: 2px solid #5da095;
+  border-radius: 8px;
+  min-height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add depth */
+  padding: 30px;
+}
+
 .side-by-side .right-section h2 {
 font-family: 'Arial', sans-serif;
 font-size: 2rem;
