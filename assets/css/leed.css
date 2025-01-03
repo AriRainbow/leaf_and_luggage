@@ -416,6 +416,9 @@ margin-top: 20px; /* Space between sections */
 padding: 20px;
 display: block;  /* block container */
 width: 93%;
+position: relative;  /* keeps elements within properly positioned */
+box-sizing: border-box;  /* ensures padding is included in box width/height */
+overflow: visible;  /* allows content to dictate the height */
 }
 
 .third-left-section img {
