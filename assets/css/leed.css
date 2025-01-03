@@ -427,7 +427,7 @@ display: block; /* Prevent inline gaps under the image */
 }
 
 .third-left-section .image-text {
-position: absolute;
+position: relative;
 bottom: 10px; /* Position the text 10px from the bottom of the image */
 right: 10px; /* Position the text 10px from the right of the image */
 background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for readability */
