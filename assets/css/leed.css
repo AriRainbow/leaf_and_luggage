@@ -197,32 +197,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  .hero-section {
-      flex-direction: column;
-      margin-top: 20px;
-      padding: 20px;
-  }
-
-  .hero-left, .hero-right {
-      width: 100%;
-      padding: 10px;
-  }
-
-  .hero-menu li {
-      margin-bottom: 10px;
-  }
-
-  .hero-right h1 {
-      font-size: 2rem;
-  }
-
-  .hero-right p {
-      font-size: 1rem;
-  }
-}
-
 /* Body background image */
 html, body {
   height: 100%;  /* ensures body spans the full viewport height */
@@ -309,17 +283,6 @@ body::before {
   object-fit: cover; /* Crop the image if needed */
 }
 
-@media (max-width: 768px) {
-  .spacer-section {
-      flex-direction: column;
-      align-items: flex-start;
-  }
-
-  .spacer-section .image img {
-      max-width: 100%; 
-      max-height: 150px; /* Optional smaller image for mobile */
-  }
-}
 
 /* S-B-S */
 /* Side-by-side section container */
@@ -437,19 +400,6 @@ list-style-type: disc;
 
 .side-by-side .right-section ul li strong {
 color: #5da095; /* Highlighted text for key points */
-}
-
-/* S-B-S MEDIA */
-/* Optional: Adjust for smaller screens */
-@media (max-width: 768px) {
-  .side-by-side {
-      flex-direction: column; /* Stack sections vertically on small screens */
-  }
-
-  .side-by-side .left-section,
-  .side-by-side .right-section {
-      margin-bottom: 20px; /* Add spacing between stacked sections */
-  }
 }
 
 /* FOOTER */
