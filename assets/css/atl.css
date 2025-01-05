@@ -133,7 +133,7 @@ body {
 }
 
 .slideshow img {
-  width: 50%; /* Display at half size */
+  width: 100%; /* Make images responsive */
   border-radius: 8px;
   display: none;
 }
@@ -245,6 +245,15 @@ body {
     margin: 0;
     padding: 10px 0;
   }
+
+  .slideshow img {
+    width: 100%; /* Make images responsive */
+  }
+
+  .prev, .next {
+    font-size: 14px;
+    padding: 10px;
+  }
 }
 
 /* Tablet Responsiveness */
@@ -282,5 +291,14 @@ body {
     width: 100%;
     margin: 0;
     padding: 10px 0;
+  }
+
+  .slideshow img {
+    width: 100%; /* Make images responsive */
+  }
+
+  .prev, .next {
+    font-size: 16px;
+    padding: 12px;
   }
 }
