@@ -4,14 +4,18 @@
   margin: auto;
 }
 
-.slideshow img {
-  width: 100%; /* Make images responsive */
-  border-radius: 8px;
+.mySlides {
   display: none;
 }
 
-.slideshow img:first-child {
-  display: block;
+.w3-left, .w3-right, .w3-badge {
+  cursor: pointer;
+}
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0;
 }
 
 .prev, .next {
@@ -44,6 +48,10 @@
   .prev, .next {
     font-size: 14px;
     padding: 10px;
+  }
+
+  .slideshow img {
+    width: 100%; /* Ensure images are responsive */
   }
 }
 

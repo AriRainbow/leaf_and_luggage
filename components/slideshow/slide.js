@@ -11,13 +11,22 @@ function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
 
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
+
 function showSlides(n, no) {
   let i;
-  let x = document.getElementById(slideId[no]).getElementsByTagName("img");
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+  let slides = document.getElementById(slideId[no]).getElementsByClassName("mySlides");
+  let dots = document.getElementById(slideId[no]).getElementsByClassName("demo");
+  if (n > slides.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  x[slideIndex[no]-1].style.display = "block";  
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  slides[slideIndex[no]-1].style.display = "block";  
+  dots[slideIndex[no]-1].className += " w3-white";
 }
