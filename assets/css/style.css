@@ -415,3 +415,86 @@ body::before {
   background-color: #3b544a;
   color: #e9e2d5;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 200px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 250px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+ The CSS file contains styles for the entire page, including the navbar, banner, content sections, footer, and responsive design. 
+ The styles are organized into sections for easier management and readability. 
+ The CSS file also includes media queries for responsive design, ensuring that the page layout adapts to different screen sizes. 
+ Step 5: Add JavaScript for Smooth Scrolling 
+ Create a new file named  script.js  in the  assets/js  directory. 
+ Add the following JavaScript code to enable smooth scrolling when users click on navigation links: 
+ // JavaScript for smooth scrolling
