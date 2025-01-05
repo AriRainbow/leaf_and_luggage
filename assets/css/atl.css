@@ -1,15 +1,30 @@
 /* General Body Styling */
-body {
-  font-family: 'Arial', sans-serif;
+html, body {
+  height: 100%;  /* ensures body spans the full viewport height */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4e3;
+  background: none;
+}
+
+body::before {
+  content: '';
+  position: fixed;  /* image stays fixed and covers entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../images/forest.png') no-repeat center center;
+  background-size: cover; /* Adjusts image to fit */
+  opacity: 0.5; /* Controls transparency */
+  z-index: -1; /* Ensures it stays behind everything */
+  pointer-events: none; /* Prevents interaction with the image */
 }
 
 /* Navbar Styling */
 .navbar {
-  background-color: #f4f4e3;
-  border-bottom: 2px solid #224224;
+  background-color: #f2dedd;
+  border-bottom: 2px solid #5da095;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,7 +34,7 @@ body {
 .navbar-logo {
   display: flex;
   align-items: center;
-  color: #224224;
+  color: #3b544a;
 }
 
 .navbar-icon {
@@ -84,8 +99,6 @@ body {
 
 .dropdown-content.visible {
   display: block;
-  max-height: 200px; /* Set a limit or animation */
-  opacity: 1;
 }
 
 .dropdown-content a {
@@ -103,6 +116,20 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing below the banner */
+}
+
+.welcome-banner img {
+  width: 100%; /* Makes it responsive */
+  max-height: 350px; /* Set a maximum height for consistency */
+  object-fit: cover; /* Ensures the image scales and doesn't distort */
+  border-bottom: 4px solid #556B2F; /* Optional green accent */
 }
 
 /* Main Content Wrapper */
@@ -124,9 +151,9 @@ body {
 .sustainability-photo {
   width: 50%; /* Display at half size */
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Slideshow Container */
 .slideshow-container {
   position: relative;
   max-width: 100%;
@@ -198,6 +225,7 @@ body {
 .eco-impact-container div {
   background: #f4f4e3;
   padding: 20px;
+  border: 1px solid #5da095;
   border-radius: 8px;
   width: 48%;
   text-align: left;
@@ -214,6 +242,7 @@ body {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: #f2dedd; /* Ensure background color is applied */
   }
 
   .navbar-logo {
@@ -237,6 +266,7 @@ body {
   .content-wrapper {
     flex-direction: column;
     padding: 10px;
+    background-color: #f4f4e3; /* Ensure background color is applied */
   }
 
   .left-section,
@@ -261,6 +291,7 @@ body {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: #f2dedd; /* Ensure background color is applied */
   }
 
   .navbar-logo {
@@ -284,6 +315,7 @@ body {
   .content-wrapper {
     flex-direction: column;
     padding: 10px;
+    background-color: #f4f4e3; /* Ensure background color is applied */
   }
 
   .left-section,
