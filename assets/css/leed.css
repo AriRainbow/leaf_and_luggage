@@ -557,3 +557,79 @@ color: #5da095 !important; /* Highlighted text for key points */
   background-color: #3b544a; /* Darker shade for hover */
   color: #b4dd1e !important;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 200px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 250px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
