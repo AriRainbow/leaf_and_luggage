@@ -375,26 +375,25 @@ border: 2px solid #5da095;
 /* THIRD LEFT */
 /* third Left Section Styling */
 .side-by-side .third-left-section {
-  background-color: #f2dedd;
-  border: 2px solid #5da095;
-  border-radius: 8px;
-  min-height: 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  width: 89%;
-  flex: 1; /* Allow sections to grow and fill space equally */
-  }
+background-color: #f2dedd;
+border: 2px solid #5da095;
+border-radius: 8px;
+min-height: 200px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 30px;
+width: 89%;
+flex: 1; /* Allow sections to grow and fill space equally */
+}
 
 /* RIGHT */
-
 .side-by-side .right-section {
-  flex: 1; /* Take up remaining space */
-  background-color: #f2dedd;
-  border: 2px solid #5da095;
-  border-radius: 8px;
-  min-height: 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add depth */
-  padding: 30px;
+flex: 1; /* Take up remaining space */
+background-color: #f2dedd;
+border: 2px solid #5da095;
+border-radius: 8px;
+min-height: 200px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add depth */
+padding: 30px;
 }
 
 .side-by-side .right-section h2 {
