@@ -188,7 +188,7 @@ body {
 }
 
 .hero-right h1 {
-  font: "Abril Fatface", serif;
+  font-family: 'Abril Fatface', serif; /* Correct font-family */
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
