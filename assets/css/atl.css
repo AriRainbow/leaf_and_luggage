@@ -194,9 +194,9 @@ body {
 }
 
 .hero-right p {
-  font-family: 'Abril Fatface', serif; /* Correct font-family */
   font-size: 2rem;
   margin-bottom: 20px;
+  margin-top: -5px;
 }
 
 /* Mobile Responsiveness */
