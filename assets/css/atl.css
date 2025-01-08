@@ -325,6 +325,17 @@ body::before {
 /* END SPACER SECTION */
 
 /* SLIDESHOW */
+.content-wrapper .left-section{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.left-section {
+  width: 30%; /* Adjust the width as needed for the slideshow */
+  padding: 20px;
+}
+
+
 .slideshow-container {
   position: relative;
   max-width: 100%;
