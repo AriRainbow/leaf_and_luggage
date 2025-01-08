@@ -331,7 +331,7 @@ body::before {
 }
 
 .left-section {
-  width: 30%; /* Adjust the width as needed for the slideshow */
+  width: 50%; /* Adjust the width as needed for the slideshow */
   padding: 20px;
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Arrange children in a column */
