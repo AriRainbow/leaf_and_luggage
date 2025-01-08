@@ -257,6 +257,7 @@ body::before {
   color: #333; /* Adjust text color for better contrast if necessary */
 }
 
+/* B2T BUTTON */
 /* Back to Top Button */
 #back-to-top {
   position: fixed;
@@ -276,7 +277,9 @@ body::before {
   background-color: #3b544a; /* Darker shade for hover */
   color: #b4dd1e !important;
 }
+/* END B2T BUTTON */
 
+/* FOOTER */
 /* Footer Base Styles */
 .site-footer {
   background-image: url('/assets/images/TheBanner_Template.png');
@@ -385,6 +388,7 @@ body::before {
   font-size: 0.9rem;
   color: #e9e2d5; 
 }
+/* END FOOTER */
 
 /* LEED */
 /* link */
@@ -415,6 +419,7 @@ body::before {
   background-color: #3b544a;
   color: #e9e2d5;
 }
+/* END LEED */
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {

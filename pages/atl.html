@@ -5,78 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leaf & Luggage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/atl.css">
-  <style>
-    .slideshow-container {
-      position: relative;
-      max-width: 100%;
-      margin: auto;
-    }
-
-    .mySlides {
-      display: none;
-    }
-
-    .w3-left, .w3-right, .w3-badge {
-      cursor: pointer;
-    }
-
-    .w3-badge {
-      height: 13px;
-      width: 13px;
-      padding: 0;
-    }
-
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: #224224;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      background-color: rgba(255, 255, 255, 0.8);
-    }
-
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-
-    .prev:hover, .next:hover {
-      background-color: rgba(255, 255, 255, 1);
-    }
-
-    @media (max-width: 768px) {
-      .prev, .next {
-        font-size: 14px;
-        padding: 10px;
-      }
-
-      .slideshow img {
-        width: 100%;
-      }
-    }
-
-    @media (max-width: 1024px) {
-      .prev, .next {
-        font-size: 16px;
-        padding: 12px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="../assets/css/leed.css"> /* CHANGE */
 </head>
 
 <body>
+  <!-- Full Page Wrapper -->
   <div class="main-wrapper">
+    
+    <!-- Navbar Section (Full Width) -->
     <header class="navbar">
       <div class="navbar-logo">
+        <!-- href points to home -->
         <a href="../index.html">
           <img src="../assets/images/LuggageTag.png" alt="EcoTravel Icon" class="navbar-icon">
         </a>
@@ -98,129 +39,92 @@
         </div>
       </ul>
     </header>
+  </div>
 
-    <div class="welcome-banner">
-      <a href="../index.html">
-        <img src="../assets/images/TheBanner_Atlanta.png" alt="Welcome Banner">
-      </a>
-    </div>
+  
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <!-- Hero container to center the content and set max width -->
+    <div class="hero-container">
+      <div class="hero-content">
+        <!-- Left side (Menu) -->
+        <div class="hero-left">
+            <ul class="hero-menu">
+                <li><a href="#section-1">MENU ITEM 1</a></li>
+                <li><a href="#section-2">MENU ITEM 2</a></li>
+                <li><a href="#section-3">MENU ITEM 3</a></li>
+                <li><a href="#section-4">MENU ITEM 4</a></li>
+                <li><a href="#section-5">MENU ITEM 5</a></li>
+            </ul>
+        </div>
 
-    <div class="content-wrapper">
-      <div class="left-section">
-        <div class="slideshow-container">
-          <h3>Tree Coverage</h3>
-          <div class="slideshow" id="slideshow1">
-            <img src="../IMAGES/atlantatree1.jpg" alt="Atlanta Tree Coverage 1" class="mySlides">
-            <img src="../IMAGES/atlantatree2.jpg" alt="Atlanta Tree Coverage 2" class="mySlides">
-            <img src="../IMAGES/atlantatree3.jpg" alt="Atlanta Tree Coverage 3" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        <!-- Right side (Content) -->
+        <div class="hero-right">
+            <h1>PAGE CONTENT</h1>
+            <p>PUT YOUR PAGE CONTENT INTRODUCTION HERE</p>
         </div>
-        <div class="slideshow-container">
-          <h3>BeltLine Project</h3>
-          <div class="slideshow" id="slideshow2">
-            <img src="../IMAGES/atlantabeltline.jpg" alt="Beltline 1" class="mySlides">
-            <img src="../IMAGES/atlantabeltline2.jpg" alt="Beltline 2" class="mySlides">
-            <img src="../IMAGES/atlantabeltline3.jpg" alt="Beltline 3" class="mySlides">
-            <img src="../IMAGES/atlantabeltline4.jpg" alt="Beltline 4" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-        </div>
-        <div class="slideshow-container">
-          <h3>Solar Energy Initiatives</h3>
-          <div class="slideshow" id="slideshow3">
-            <img src="../IMAGES/AtlantaSolar.jpg" alt="Solar in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability8.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability9.jpg" alt="Sustainability in Atlanta" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-        </div>
-        <div class="slideshow-container">
-          <h3>Water Conservation</h3>
-          <div class="slideshow" id="slideshow4">
-            <img src="../IMAGES/atl_sustainability10.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability11.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability12.jpg" alt="Sustainability in Atlanta" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
-        </div>
-        <div class="slideshow-container">
-          <h3>Public Transportation</h3>
-          <div class="slideshow" id="slideshow5">
-            <img src="../IMAGES/atl_sustainability13.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability14.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability15.jpg" alt="Sustainability in Atlanta" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-        </div>
-        <div class="slideshow-container">
-          <h3>Farm-to-Table Practices</h3>
-          <div class="slideshow" id="slideshow6">
-            <img src="../IMAGES/atl_sustainability16.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability17.jpg" alt="Sustainability in Atlanta" class="mySlides">
-            <img src="../IMAGES/atl_sustainability18.jpg" alt="Sustainability in Atlanta" class="mySlides">
-          </div>
-          <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
-        </div>
-      </div>
-      <div class="right-section">
-        <section class="why-eco-friendly">
-          <h2>Eco-Friendly Initiatives in Atlanta</h2>
-          <div class="eco-impact-container">
-            <div class="traditional-impact">
-              <h3>Sustainability Facts</h3>
-              <p>🌱 Atlanta is home to numerous green spaces and parks, promoting biodiversity and clean air.</p>
-              <p>🌱 The BeltLine project is transforming old rail corridors into vibrant public spaces.</p>
-              <p>🌱 Solar energy initiatives are helping reduce the city's carbon footprint.</p>
-              <p>🌱 Water conservation efforts are crucial in maintaining Atlanta's water supply.</p>
-              <p>🌱 Public transportation improvements are reducing traffic congestion and pollution.</p>
-              <p>🌱 Farm-to-table practices are supporting local agriculture and reducing food miles.</p>
-            </div>
-            <div class="impact-statement">
-              <h3>Make a Difference</h3>
-              <p>🌱 By making eco-friendly choices, you can help Atlanta maintain its green initiatives and support sustainable growth.</p>
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   </div>
-  <script>
-    let slideIndex = [1, 1, 1, 1, 1, 1];
-    let slideId = ["slideshow1", "slideshow2", "slideshow3", "slideshow4", "slideshow5", "slideshow6"];
-    showSlides(1, 0);
-    showSlides(1, 1);
-    showSlides(1, 2);
-    showSlides(1, 3);
-    showSlides(1, 4);
-    showSlides(1, 5);
 
-    function plusSlides(n, no) {
-      showSlides(slideIndex[no] += n, no);
-    }
+  <!-- Empty Section -->
+  <section class="spacer-section">
+    <div class="content">
+        <div class="text">
+            <!-- text content -->
+            <h2>Section Title</h2>
+            <p>Add the content</p>
+        </div>
+        <div class="image">
+            <img src="../assets/image/image.png" alt="Example description">
+        </div>
+    </div>
+  </section>
 
-    function currentSlide(n, no) {
-      showSlides(slideIndex[no] = n, no);
-    }
+  <footer class="site-footer">
+    
+    <div class="footer-content">
+      <!-- Tagline -->
+      <div class="logo-tagline">
+        <p class="tagline">REDEFINING SUBSTAINABLE ADVENTURES</p>
+      </div>
+  
+      <!-- Navigation Links -->
+      <div class="footer-links">
+        <ul>
+          <li><a href="/pages/about_us.html">About Us</a></li>
+          <li><a href="/pages/sprouting.html">Contact</a></li>
+          <li><a href="/pages/sprouting.html">Privacy Policy</a></li>
+          <li><a href="/pages/sprouting.html">FAQ</a></li>
+          <li><a href="/pages/sprouting.html">Our Mission</a></li>
+        </ul>
+      </div>
+  
+      <!-- Newsletter Signup -->
+      <div class="newsletter">
+        <p>Stay updated on green travel tips!</p>
+        <form action="/subscribe" method="post">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+  
+      <!-- Social Media Icons -->
+      <div class="social-media">
+        <a href="https://www.instagram.com" class="social-icon">Instagram</a>
+        <a href="https://www.linkedin.com" class="social-icon">LinkedIn</a>
+        <a href="https://www.twitter.com" class="social-icon">Twitter</a>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>© 2024 Leaf & Luggage - All rights reserved. Designed with love for the planet.</p>
+    </div>
+  </footer>
 
-    function showSlides(n, no) {
-      let i;
-      let slides = document.getElementById(slideId[no]).getElementsByClassName("mySlides");
-      if (n > slides.length) {slideIndex[no] = 1}
-      if (n < 1) {slideIndex[no] = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slides[slideIndex[no]-1].style.display = "block";  
-    }
-  </script>
-  <script src="../assets/js/smoothscrolling.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <button id="back-to-top">Back to Top</button>
+
 </body>
-
 </html>
