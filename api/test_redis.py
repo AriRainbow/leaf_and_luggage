@@ -1,4 +1,3 @@
-# filepath: /c:/Users/James/Leaf_And_Luggage/leaf_and_luggage/api/test_redis.py
 from example_usage import some_endpoint
 
 def test_redis_connection():

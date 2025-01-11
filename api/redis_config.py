@@ -1,4 +1,3 @@
-# filepath: /c:/Users/James/Leaf_And_Luggage/leaf_and_luggage/api/redis_config.py
 import redis
 
 client = redis.StrictRedis(
