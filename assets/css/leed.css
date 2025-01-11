@@ -576,20 +576,64 @@ body::before {
     margin-bottom: 0.625rem; /* 10px */
   }
 
-  .welcome-banner img {
-    max-height: 12.5rem; /* 200px */
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    max-height: none;
   }
 
-  .content-wrapper {
+  .dropdown-content a {
+    padding: 0.5rem 1rem; /* 8px 16px */
+  }
+
+  .hero-section {
     flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .hero-left, .hero-right {
+    width: 100%;
     padding: 0.625rem; /* 10px */
   }
 
-  .left-section,
-  .right-section {
+  .hero-menu li {
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .hero-right h1 {
+    font-size: 2rem;
+  }
+
+  .hero-right p {
+    font-size: 1rem;
+  }
+
+  .spacer-section {
+    flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .side-by-side {
+    flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .left-column, .right-section {
     width: 100%;
-    margin: 0;
-    padding: 0.625rem 0; /* 10px 0 */
+    padding: 0.625rem; /* 10px */
+  }
+
+  .footer-links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .newsletter input {
+    width: 80%;
   }
 }
 
@@ -614,19 +658,63 @@ body::before {
     margin-bottom: 0.625rem; /* 10px */
   }
 
-  .welcome-banner img {
-    max-height: 15.625rem; /* 250px */
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    max-height: none;
   }
 
-  .content-wrapper {
+  .dropdown-content a {
+    padding: 0.5rem 1rem; /* 8px 16px */
+  }
+
+  .hero-section {
     flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .hero-left, .hero-right {
+    width: 100%;
     padding: 0.625rem; /* 10px */
   }
 
-  .left-section,
-  .right-section {
+  .hero-menu li {
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .hero-right h1 {
+    font-size: 2rem;
+  }
+
+  .hero-right p {
+    font-size: 1rem;
+  }
+
+  .spacer-section {
+    flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .side-by-side {
+    flex-direction: column;
+    padding: 1.25rem; /* 20px */
+  }
+
+  .left-column, .right-section {
     width: 100%;
-    margin: 0;
-    padding: 0.625rem 0; /* 10px 0 */
+    padding: 0.625rem; /* 10px */
+  }
+
+  .footer-links ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links ul li {
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .newsletter input {
+    width: 80%;
   }
 }
