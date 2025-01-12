@@ -1,0 +1,197 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2dedd;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #f2dedd;
+  border-bottom: 2px solid #5da095;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  color: #3b544a;
+}
+
+.navbar-icon {
+  height: 100px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.navbar-text {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 5px;  /* space between menu items */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #3b544a;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+}
+
+.menu a:hover {
+  background-color: #5da095;
+  border-radius: 4px;
+  border: 2px solid #e1c149;
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  text-decoration: none;
+  color: #3b544a;
+  padding: 8px 12px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f2dedd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+.dropdown-content.visible {
+  display: block;
+  max-height: 200px; /* Set a limit or animation */
+  opacity: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  color: #3b544a;
+  padding: 10px;
+  border-bottom: 1px solid #f4f4e3;
+}
+
+.dropdown-content a:hover {
+  background-color: #5da095;
+  border: 2px solid #e1c149;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* General reset for the banner */
+.welcome-banner {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing below the banner */
+}
+
+/* Style the banner image */
+.welcome-banner img {
+  width: 100%; /* Makes it responsive */
+  max-height: 350px; /* Set a maximum height for consistency */
+  object-fit: cover; /* Ensures the image scales and doesn't distort */
+  border-bottom: 4px solid #556B2F; /* Optional green accent */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 200px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .welcome-banner img {
+    max-height: 250px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+}
