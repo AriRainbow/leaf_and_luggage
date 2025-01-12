@@ -17,20 +17,20 @@ class CachingHTTPRequestHandler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         cache_key = f"static:{self.path}"
-        cached_response = self.redis_client.get(cache_key)
-        if cached_response:
-            self.send_response(200)
-            self.send_header('Content-type', self.guess_type(self.path))
-            self.end_headers()
-            self.wfile.write(cached_response)
-        else:
-            try:
+        try:
+            cached_response = self.redis_client.get(cache_key)
+            if cached_response:
+                self.send_response(200)
+                self.send_header('Content-type', self.guess_type(self.path))
+                self.end_headers()
+                self.wfile.write(cached_response)
+            else:
                 super().do_GET()
                 if self.path != '/':
                     self.redis_client.setex(cache_key, 31536000, self.wfile.getvalue())  # Cache for 1 year
-            except Exception as e:
-                logging.error(f"Error serving {self.path}: {e}")
-                self.send_error(503, "Service Unavailable")
+        except Exception as e:
+            logging.error(f"Error serving {self.path}: {e}")
+            self.send_error(503, "Service Unavailable")
 
 def run(server_class=HTTPServer, handler_class=CachingHTTPRequestHandler):
     server_address = ('', 3000)
